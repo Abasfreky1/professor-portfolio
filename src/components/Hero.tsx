@@ -58,12 +58,12 @@ export function Hero() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 shadow-2xl flex items-center justify-center">
-              <div className="text-white text-center p-8">
-                <Award className="w-24 h-24 mx-auto mb-4 opacity-90" />
-                <p className="text-2xl font-bold mb-2">ORCID</p>
-                <p className="text-sm opacity-90">0000-0002-2421-181X</p>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+              <img
+                src="/head photo abas2.jpg"
+                alt="Abasiafak Ndifreke Udosen"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-4 max-w-xs">
               <p className="text-sm font-semibold text-gray-900 mb-1">Current Position</p>
