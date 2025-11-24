@@ -61,7 +61,7 @@ export function Hero() {
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="/profile-photo.jpg"
-                alt="Abasiafak Ndifreke Udosen"
+                alt="Aby"
                 className="w-full h-full object-cover"
               />
             </div>
