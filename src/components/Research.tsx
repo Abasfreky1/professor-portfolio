@@ -1,4 +1,4 @@
-import { Brain, Cpu, Recycle, Thermometer } from 'lucide-react';
+import { Brain, Cpu, Users, Microscope } from 'lucide-react';
 
 export function Research() {
   const areas = [
@@ -15,15 +15,15 @@ export function Research() {
       color: 'green',
     },
     {
-      icon: Recycle,
-      title: 'IoT & Waste Management',
-      description: 'Developing intelligent IoT systems for efficient waste management and environmental sustainability.',
+      icon: Users,
+      title: 'Human–AI Teaming & Learning Analytics',
+      description: 'Studying human-AI collaboration in learning contexts, team coordination dynamics, and AI-supported instruction.',
       color: 'teal',
     },
     {
-      icon: Thermometer,
-      title: 'Phase Change Materials & Thermal Tech',
-      description: 'Research in thermal energy storage systems and phase change materials for sustainable applications.',
+      icon: Microscope,
+      title: 'Machine Learning for Scientific Imaging',
+      description: 'Deep learning pipelines for computer vision, pattern recognition, and computational modeling of biological processes.',
       color: 'orange',
     },
   ];
