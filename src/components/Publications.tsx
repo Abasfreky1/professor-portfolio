@@ -9,15 +9,15 @@ export function Publications() {
       status: 'Recent',
     },
     {
-      title: 'Scaffolded team-based computational modeling and simulation projects',
+      title: 'Scaffolded Team-Based Computational Modeling and Simulation Projects for Promoting Model-Based Reasoning, Conceptual Understanding, and Regulatory Processes',
       year: 2024,
-      type: 'Conference Paper',
+      type: 'Journal Article',
       status: 'Published',
     },
     {
       title: 'The Evolution of Team Coordination Commitments in Computational Projects',
       year: 2023,
-      type: 'Research Article',
+      type: 'Confrence Paper',
       status: 'Published',
     },
   ];
