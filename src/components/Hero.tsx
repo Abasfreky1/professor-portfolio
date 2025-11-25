@@ -64,10 +64,6 @@ export function Hero() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-4 max-w-xs">
-              <p className="text-xs text-gray-600">School of Applied and Creative Computing</p>
-              <p className="text-xs text-gray-600">Purdue University West Lafayette</p>
-            </div>
           </div>
         </div>
       </div>
