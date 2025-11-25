@@ -17,7 +17,7 @@ export function Hero() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak (Ah-bah-SEE-ah-fak). </span>, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
+                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak (Ah-bah-SEE-ah-fak)</span>, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-4">
