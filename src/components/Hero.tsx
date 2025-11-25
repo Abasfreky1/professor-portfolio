@@ -65,7 +65,6 @@ export function Hero() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-4 max-w-xs">
-              <p className="text-sm font-semibold text-gray-900 mb-1">Current Position</p>
               <p className="text-xs text-gray-600">School of Applied and Creative Computing</p>
               <p className="text-xs text-gray-600">Purdue University West Lafayette</p>
             </div>
