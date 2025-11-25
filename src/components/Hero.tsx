@@ -61,7 +61,6 @@ export function Hero() {
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="/professor-portfolio/profile-photo.jpg"
-                alt="Aby"
                 className="w-full h-full object-cover"
               />
             </div>
