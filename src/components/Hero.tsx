@@ -12,7 +12,7 @@ export function Hero() {
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Abasiafak Udosen, PhD(Candidate)
+              Abasiafak Udosen, PhD(Cand.,)
             </h1>
 
             <div className="prose prose-lg max-w-none">
