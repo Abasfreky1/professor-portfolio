@@ -8,15 +8,23 @@ export function Hero() {
           <div className="space-y-6">
             <div className="inline-block">
               <span className="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-1 rounded-full">
-                PhD Candidate | Research Assistant
+                Research Assistant @ RoCkeTEd Lab | Purdue Polytechnic
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Abasiafak Ndifreke Udosen
+              Abasiafak Ndifreke Udosen, PhD(Cand.)
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Research Assistant at Purdue University West Lafayette, specializing in computational modeling,
-              artificial intelligence in education, and IoT applications in waste management systems.
+              Hey there — my name is <span className="font-bold"> Abasiafak Udosen</span>, but most people call me <span className="font-bold"> Abass</span> or 
+               <span className="font-bold"> Aby</span>… 
+              I am a PhD candidate in Computer & Information Technology at Purdue University, where I work at the intersection of computational modeling, 
+              computing/engineering education and AI/ML applications. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I’ve 
+              evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation. 
+              At Purdue, I conduct research with the ROCKetED Lab and the NSF-funded EMBRIO Institute, where I study how students reason with computational models, 
+              how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale.I also build applied AI systems — from deep-learning 
+              pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy. My work has been 
+              recognized through multiple technical awards (NSBE, ASEE, EMBRIO Summer School, Purdue Polytechnic), peer-reviewed publications, and national presentations.
+              
             </p>
             <div className="flex flex-wrap gap-4">
               <a
