@@ -1,6 +1,22 @@
-import { Mail, Linkedin, BookOpen, Award } from 'lucide-react';
+import { Mail, Linkedin, BookOpen, Award, FileDown } from 'lucide-react';
+import { useEffect } from 'react';
 
 export function Hero() {
+  useEffect(() => {
+    // Load LinkedIn badge script
+    const script = document.createElement('script');
+    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+    script.async = true;
+    script.defer = true;
+    script.type = 'text/javascript';
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup script on unmount
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section id="home" className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -12,12 +28,17 @@ export function Hero() {
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Abasiafak Udosen, PhD(Cand.,)
+              Abasiafak Udosen PhD(ABD)
             </h1>
+
+            {/* LinkedIn Badge */}
+            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="abasiafakudosenb74737117" data-version="v1">
+              <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/abasiafakudosenb74737117?trk=profile-badge">Abasiafak Udosen</a>
+            </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak (Ah-bah-SEE-ah-fak)</span>, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
+                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak Udosen, PhD <em>(Cand.,)</em></span>, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-4">
@@ -83,6 +104,14 @@ export function Hero() {
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
+              </a>
+              <a
+                href="/11_5_Updated_Abas_Resume.pdf"
+                download
+                className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
+              >
+                <FileDown className="w-5 h-5 mr-2" />
+                Download CV
               </a>
             </div>
             <div className="flex gap-6 pt-2">
