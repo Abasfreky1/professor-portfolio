@@ -30,9 +30,7 @@ export function Hero() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
               Abasiafak Udosen PhD(ABD)
             </h1>
-
-            </div>
-
+            
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
                 Hey there — my name is <span className="font-bold text-gray-900">Abasiafak</span> pronounced as <span className="font-bold text-gray-900">Ah-bah-SEE-ah-fak, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
