@@ -97,7 +97,7 @@ export function Education() {
         <div className="mt-12 bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
           <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Academic Journey</h3>
           <p className="text-gray-700 text-center max-w-3xl mx-auto leading-relaxed">
-            With a comprehensive educational background STEM-based fields, my academic journey reflects a commitment to interdisciplinary research and continuous learning.
+            With a comprehensive educational background in STEM-based fields, my academic journey reflects a commitment to interdisciplinary research and continuous learning.
             Currently pursuing a PhD at Purdue University, I'm focused on advancing knowledge in computational
             modeling education, artificial intelligence applications, and sustainable engineering solutions.
           </p>
