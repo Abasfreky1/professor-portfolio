@@ -34,8 +34,8 @@ export function Publications() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Publications</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Selected recent publications showcasing research in artificial intelligence,
-            computational modeling, and educational technology.
+            Selected recent publications showcasing research in computing and engineering education, computational modeling, 
+            and artificial intelligence applications.
           </p>
         </div>
 
