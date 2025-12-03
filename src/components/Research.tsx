@@ -8,7 +8,7 @@ interface Project {
   color: string;
   fullDescription: string;
   ongoingWork: string[];
-  image?: string;
+  image?: string[];
   pdf?: string;
   externalLink?: string;
 }
@@ -22,41 +22,43 @@ export function Research() {
       title: 'Computational Modeling & Simulation',
       description: 'Advanced computational techniques for modeling complex systems and engineering processes.',
       color: 'blue',
-      fullDescription: 'This research focuses on developing and applying computational techniques to model complex engineering systems, with emphasis on fluid dynamics, thermodynamics, and multiphysics simulations. Our work bridges traditional engineering disciplines with modern computational approaches to solve real-world problems in energy systems, manufacturing processes, and environmental engineering.',
+      fullDescription: '***',
       ongoingWork: [
-        'Developing multiscale modeling frameworks for energy conversion systems',
-        'Implementing CFD simulations for renewable energy applications',
-        'Creating predictive models for manufacturing process optimization',
-        'Investigating heat transfer mechanisms in novel cooling systems'
+        '**',
+        '**',
+        '**',
+        '**'
       ],
-    },
+      image: '/computational-modeling.jpg', 
+      },
     {
       icon: Brain,
       title: 'Artificial Intelligence in Education',
       description: 'Exploring AI tools and methodologies to enhance scholarly communication and educational outcomes.',
       color: 'green',
-      fullDescription: 'This research investigates how artificial intelligence can transform educational practices, enhance learning outcomes, and support both educators and students. We explore the integration of AI tools in STEM education, focusing on personalized learning, automated assessment, and intelligent tutoring systems that adapt to individual student needs.',
+      fullDescription: '***',
       ongoingWork: [
-        'Designing AI-powered tools for automated feedback on student modeling work',
-        'Studying the impact of large language models on scholarly writing and communication',
-        'Developing adaptive learning systems for engineering education',
-        'Investigating ethical considerations in AI-assisted education'
+        '**',
+        '**',
+        '**',
+        '**'
       ],
-    },
+      image: '/ai-education.jpg', 
+      },
     {
       icon: Users,
       title: 'Human–AI Teaming & Learning Analytics',
       description: 'Studying human-AI collaboration in learning contexts, team coordination dynamics, and AI-supported instruction.',
       color: 'teal',
-      fullDescription: 'This research examines how humans and AI systems can effectively collaborate in educational and professional settings. We study team coordination dynamics, communication patterns, and the role of AI in supporting collaborative learning and decision-making. Our work with the ROCKetED Lab focuses on understanding how students work together on complex modeling tasks and how AI can enhance team performance.',
+      fullDescription: '***',
       ongoingWork: [
-        'Analyzing team coordination patterns in collaborative modeling projects',
-        'Developing AI agents that support team-based learning activities',
-        'Investigating trust and transparency in human-AI collaboration',
-        'Creating learning analytics dashboards for real-time team performance monitoring',
-        'Studying the role of AI in facilitating interdisciplinary team communication'
-      ],
-    },
+        '**',
+        '**',
+        '**',
+        '**'
+     ],
+      image: '/human-ai-teaming.jpg', 
+      },
     {
       icon: Microscope,
       title: 'Machine Learning for Scientific Imaging',
@@ -70,7 +72,7 @@ export function Research() {
         'Applying transfer learning techniques to biological image classification tasks',
         'Creating interpretable AI models for scientific discovery in developmental biology'
       ],
-      image: '/poster.jpg',
+      images: ['/poster.jpg','/image.png'],
     },
   ];
 
