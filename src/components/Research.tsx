@@ -64,7 +64,7 @@ export function Research() {
       title: 'Machine Learning for Scientific Imaging',
       description: 'Deep learning pipelines for computer vision, pattern recognition, and computational modeling of biological processes.',
       color: 'orange',
-      fullDescription: 'This research develops and applies machine learning techniques to analyze scientific images, with a focus on biological systems. Working with the NSF-funded EMBRIO Institute, we build deep learning pipelines for detecting and quantifying biological phenomena, including cortical actin dynamics during fertilization and cellular processes. Our work combines computer vision, pattern recognition, and domain expertise to extract meaningful insights from complex imaging data.',
+      fullDescription: 'This research develops and applies machine learning techniques to analyze scientific images, with a focus on biological systems. Working with the EMBRIO Institute, we built deep learning pipelines for detecting and quantifying biological phenomena, including cortical actin dynamics during fertilization and cellular processes. Our work combines computer vision, pattern recognition, and domain expertise to extract meaningful insights from complex imaging data.',
       ongoingWork: [
         'Developing deep learning models for detecting cortical actin rearrangements in egg fertilization',
         'Investigating the role of cortical actin in establishing the membrane block to polyspermy',
