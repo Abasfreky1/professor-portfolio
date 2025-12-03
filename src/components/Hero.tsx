@@ -50,7 +50,7 @@ export function Hero() {
 
               <div className="mt-6 bg-gray-50 rounded-lg p-5">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">Research Interests</h3>
-                <ul className="space-y-2 text-sm text-gray-700">
+                <ul className="space-y-2 text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2 mt-1">•</span>
                     <span>Model-based and mechanistic scientific reasoning in STEM learning</span>
