@@ -72,7 +72,7 @@ export function Research() {
         'Applying transfer learning techniques to biological image classification tasks',
         'Creating interpretable AI models for scientific discovery in developmental biology'
       ],
-      images: ['/poster.jpg','/image.png'],
+      images: ['/poster.jpg', '/image.png'],
     },
   ];
 
