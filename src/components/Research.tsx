@@ -22,12 +22,12 @@ export function Research() {
       title: 'Computational Modeling & Simulation',
       description: 'Advanced computational techniques for modeling complex systems and engineering processes.',
       color: 'blue',
-      fullDescription: '***',
+      fullDescription: 'The design phase of this project, focused on the development of computational models to simulate the mechanics of cell cytokinesis. Cell cytokinesis is the process by which a single eukaryotic cell divides into two daughter cells. For this module, I developed computational models using Computational Fluid Dynamics (CFD) methods to handle the cell fluid domains, utilizing the renowned Navier-Stokes (NS) fluid motion equations. The cytoplasmic membrane splitting at the cell’s equator (known as the constriction site) was modeled using coupled constriction force and polar cap functions. The entire model was developed in Python and the final models had interactive features to conduct virtual computational experiments analyzing the influence of membrane curvature, surface tension, contractile ring force, bending energies, and osmotic pressure difference on the vesicle’s shape.',
       ongoingWork: [
-        '**',
-        '**',
-        '**',
-        '**'
+        '#@',
+        '%^',
+        '*&',
+        '!^'
       ],
       image: '/computational-modeling.jpg', 
       },
@@ -38,10 +38,10 @@ export function Research() {
       color: 'green',
       fullDescription: '***',
       ongoingWork: [
-        '**',
-        '**',
-        '**',
-        '**'
+        '#@',
+        '%^',
+        '*&',
+        '!^'
       ],
       image: '/ai-education.jpg', 
       },
@@ -52,10 +52,10 @@ export function Research() {
       color: 'teal',
       fullDescription: '***',
       ongoingWork: [
-        '**',
-        '**',
-        '**',
-        '**'
+        '#@',
+        '%^',
+        '*&',
+        '!^'
      ],
       image: '/human-ai-teaming.jpg', 
       },
