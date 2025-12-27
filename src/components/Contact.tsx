@@ -67,7 +67,7 @@ export function Contact() {
         <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 md:p-12 text-white text-center shadow-xl">
           <h3 className="text-2xl font-bold mb-4">Research Collaboration</h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Interested in collaborating on computational modeling, AI in education, or sustainable engineering projects?
+            Interested in collaborating on projects?
             I'd love to hear from you.
           </p>
           <a
