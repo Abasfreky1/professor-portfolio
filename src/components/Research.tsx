@@ -160,5 +160,3 @@ export function Research() {
     </section>
   );
 }
-
-
