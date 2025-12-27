@@ -10,6 +10,7 @@ export function Research() {
       title: 'Computational Modeling & Simulation',
       description: 'Advanced computational techniques for modeling complex systems and engineering processes.',
       color: 'blue',
+      image: '/computational-modeling.jpg',
       overview: 'The design phase of this project, focused on the development of computational models to simulate the mechanics of cell cytokinesis. Cell cytokinesis is the process by which a single eukaryotic cell divides into two daughter cells. For this module, I developed computational models using Computational Fluid Dynamics (CFD) methods to handle the cell fluid domains, utilizing the renowned Navier-Stokes (NS) fluid motion equations. The cytoplasmic membrane splitting at the cell\'s equator (known as the constriction site) was modeled using coupled constriction force and polar cap functions. The entire model was developed in Python and the final models had interactive features to conduct virtual computational experiments analyzing the influence of membrane curvature, surface tension, contractile ring force, bending energies, and osmotic pressure difference on the vesicle\'s shape.',
       futureWork: [
         'Explore TES-PCM Property Selection and Configuration (PSC) model for thermal energy management applications'
@@ -20,6 +21,7 @@ export function Research() {
       title: 'Artificial Intelligence in Education',
       description: 'Exploring AI tools and methodologies to enhance scholarly communication and educational outcomes.',
       color: 'green',
+      image: '/poster.jpg',
       overview: 'This research area explores the application of artificial intelligence in educational settings, focusing on how AI tools can enhance scholarly communication, improve learning outcomes, and support evidence-based teaching practices. The work examines both the opportunities and challenges of integrating AI into educational environments.',
       futureWork: [
         'Investigating AI-powered tools for scholarly communication',
@@ -34,6 +36,7 @@ export function Research() {
       title: 'Human–AI Teaming & Learning Analytics',
       description: 'Studying human-AI collaboration in learning contexts, team coordination dynamics, and AI-supported instruction.',
       color: 'teal',
+      image: '/human-ai-teaming.jpg',
       overview: 'This research area investigates how humans and AI systems can work together effectively in educational and team settings. The work focuses on understanding coordination dynamics, communication patterns, and the cognitive aspects of human-AI collaboration to optimize learning outcomes and team performance.',
       futureWork: [
         'Design and test human–AI teaming setups in classroom/lab deployments',
@@ -49,6 +52,7 @@ export function Research() {
       title: 'Machine Learning for Scientific Imaging',
       description: 'Deep learning pipelines for computer vision, pattern recognition, and computational modeling of biological processes.',
       color: 'orange',
+      image: '/image.jpg',
       overview: 'Advanced machine learning techniques applied to scientific imaging, with focus on developing deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy. This work combines computer vision, pattern recognition, and computational modeling to advance our understanding of biological processes at the cellular level.',
       futureWork: [
         'Enhance deep learning models for real-time cellular imaging analysis',
@@ -62,6 +66,7 @@ export function Research() {
       title: 'Data Privacy, IoT & Explainable AI',
       description: 'Federated learning, differential privacy, and explainable AI for secure on-device learning across IoT and sensitive data endpoints.',
       color: 'purple',
+      image: '/data-privacy-iot.png',
       overview: 'Organizations increasingly require on-device learning over sensitive, heterogeneous data from endpoints, IoT, and clinical devices. Federated learning (FL) reduces raw-data movement by training locally and aggregating updates on a server, yet rigorous evidence for federated reinforcement learning (FedRL) under non-IID clients, partial participation, differential privacy (DP), and communication limits remains limited. This study implements a DDQN-based FedRL pipeline where each client performs genuine RL learning via experience replay and Temporal-Difference (TD)-loss optimization, then exchanges RL-derived weight updates each round. We compare FedAvg vs. FedProx and their server-side update-level DP variants, where client deltas are L2-clipped and perturbed with Gaussian noise before aggregation.',
       futureWork: [
         'Extending FedRL frameworks to support multi-agent scenarios',
@@ -117,6 +122,13 @@ export function Research() {
 
                 {isExpanded && (
                   <div className="mt-6 pt-6 border-t border-gray-200 space-y-4 animate-fadeIn">
+                    <div className="mb-4">
+                      <img 
+                        src={area.image} 
+                        alt={area.title}
+                        className="w-full h-auto rounded-lg shadow-md object-cover"
+                      />
+                    </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2">Overview</h4>
                       <p className="text-sm text-gray-700 leading-relaxed">{area.overview}</p>
@@ -160,3 +172,4 @@ export function Research() {
     </section>
   );
 }
+
