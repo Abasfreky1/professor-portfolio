@@ -1,55 +1,82 @@
+import { Brain, Cpu, Users, Microscope, Shield } from 'lucide-react';
+import { useState } from 'react';
 
+export function Research() {
+  const [expandedArea, setExpandedArea] = useState<number | null>(null);
 
-import { GraduationCap, Calendar, MapPin } from 'lucide-react';
-
-export function Education() {
-  const education = [
+  const areas = [
     {
-      degree: 'PhD in Computer and Information Technology',
-      institution: 'Purdue University West Lafayette',
-      location: 'West Lafayette, IN, USA',
-      status: 'In Progress',
-      year: 'Expected 2026',
+      icon: Cpu,
+      title: 'Computational Modeling & Simulation',
+      description: 'Advanced computational techniques for modeling complex systems and engineering processes.',
       color: 'blue',
+      image: '/computational-modeling.jpg',
+      overview: 'The design phase of this project, focused on the development of computational models to simulate the mechanics of cell cytokinesis. Cell cytokinesis is the process by which a single eukaryotic cell divides into two daughter cells. For this module, I developed computational models using Computational Fluid Dynamics (CFD) methods to handle the cell fluid domains, utilizing the renowned Navier-Stokes (NS) fluid motion equations. The cytoplasmic membrane splitting at the cell\'s equator (known as the constriction site) was modeled using coupled constriction force and polar cap functions. The entire model was developed in Python and the final models had interactive features to conduct virtual computational experiments analyzing the influence of membrane curvature, surface tension, contractile ring force, bending energies, and osmotic pressure difference on the vesicle\'s shape.',
+      futureWork: [
+        'Explore TES-PCM Property Selection and Configuration (PSC) model for thermal energy management applications'
+      ]
     },
     {
-      degree: 'M.Eng in Mechanical Engineering',
-      institution: 'Federal University of Technology Owerri',
-      location: 'Owerri, Nigeria',
-      status: 'Completed',
-      year: '2015',
+      icon: Brain,
+      title: 'Artificial Intelligence in Education',
+      description: 'Exploring AI tools and methodologies to enhance scholarly communication and educational outcomes.',
       color: 'green',
+      image: '/poster.jpg',
+      overview: 'This research area explores the application of artificial intelligence in educational settings, focusing on how AI tools can enhance scholarly communication, improve learning outcomes, and support evidence-based teaching practices. The work examines both the opportunities and challenges of integrating AI into educational environments.',
+      futureWork: [
+        'Investigating AI-powered tools for scholarly communication',
+        'Developing frameworks for AI integration in education',
+        'Analyzing the impact of AI on student learning outcomes',
+        'Creating guidelines for responsible AI use in academia',
+        'Exploring AI-assisted assessment and feedback mechanisms'
+      ]
     },
     {
-      degree: 'MEng in Mechanical Engineering',
-      institution: 'Igbinedion University',
-      location: 'Okada, Nigeria',
-      status: 'Completed',
-      year: '2009',
+      icon: Users,
+      title: 'Human–AI Teaming & Learning Analytics',
+      description: 'Studying human-AI collaboration in learning contexts, team coordination dynamics, and AI-supported instruction.',
       color: 'teal',
+      image: '/human-ai-teaming.jpg',
+      overview: 'This research area investigates how humans and AI systems can work together effectively in educational and team settings. The work focuses on understanding coordination dynamics, communication patterns, and the cognitive aspects of human-AI collaboration to optimize learning outcomes and team performance.',
+      futureWork: [
+        'Design and test human–AI teaming setups in classroom/lab deployments',
+        'Analyzing team coordination in human-AI collaborative learning',
+        'Developing learning analytics frameworks for AI-supported instruction',
+        'Investigating cognitive load in human-AI teaming scenarios',
+        'Creating metrics for evaluating human-AI team effectiveness',
+        'Exploring adaptive AI systems for personalized learning support'
+      ]
+    },
+    {
+      icon: Microscope,
+      title: 'Machine Learning for Scientific Imaging',
+      description: 'Deep learning pipelines for computer vision, pattern recognition, and computational modeling of biological processes.',
+      color: 'orange',
+      image: '/image.jpg',
+      overview: 'Advanced machine learning techniques applied to scientific imaging, with focus on developing deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy. This work combines computer vision, pattern recognition, and computational modeling to advance our understanding of biological processes at the cellular level.',
+      futureWork: [
+        'Enhance deep learning models for real-time cellular imaging analysis',
+        'Develop automated feature extraction for biological processes',
+        'Integrate multi-modal imaging data for comprehensive analysis',
+        'Create explainable AI models for scientific discovery'
+      ]
+    },
+    {
+      icon: Shield,
+      title: 'Data Privacy, IoT & Explainable AI',
+      description: 'Federated learning, differential privacy, and explainable AI for secure on-device learning across IoT and sensitive data endpoints.',
+      color: 'purple',
+      image: '/data-privacy-iot.png',
+      overview: 'Organizations increasingly require on-device learning over sensitive, heterogeneous data from endpoints, IoT, and clinical devices. Federated learning (FL) reduces raw-data movement by training locally and aggregating updates on a server, yet rigorous evidence for federated reinforcement learning (FedRL) under non-IID clients, partial participation, differential privacy (DP), and communication limits remains limited. This study implements a DDQN-based FedRL pipeline where each client performs genuine RL learning via experience replay and Temporal-Difference (TD)-loss optimization, then exchanges RL-derived weight updates each round. We compare FedAvg vs. FedProx and their server-side update-level DP variants, where client deltas are L2-clipped and perturbed with Gaussian noise before aggregation.',
+      futureWork: [
+        'Extending FedRL frameworks to support multi-agent scenarios',
+        'Investigating privacy-utility tradeoffs in differential privacy mechanisms',
+        'Developing explainability methods for federated learning models',
+        'Optimizing communication efficiency in IoT federated systems',
+        'Creating benchmarks for privacy-preserving reinforcement learning'
+      ]
     },
   ];
-
-  const colorClasses: Record<string, { bg: string; text: string; border: string; badge: string }> = {
-    blue: {
-      bg: 'bg-blue-50',
-      text: 'text-blue-600',
-      border: 'border-blue-200',
-      badge: 'bg-blue-100 text-blue-700'
-    },
-    green: {
-      bg: 'bg-green-50',
-      text: 'text-green-600',
-      border: 'border-green-200',
-      badge: 'bg-green-100 text-green-700'
-    },
-    teal: {
-      bg: 'bg-teal-50',
-      text: 'text-teal-600',
-      border: 'border-teal-200',
-      badge: 'bg-teal-100 text-teal-700'
-    },
-  };
 
   return (
     <section id="education" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-slate-50">
