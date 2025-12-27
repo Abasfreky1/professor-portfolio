@@ -4,6 +4,14 @@ import { useState } from 'react';
 export function Research() {
   const [expandedArea, setExpandedArea] = useState<number | null>(null);
 
+  const colorClasses: Record<string, { bg: string; text: string; border: string }> = {
+    blue: { bg: 'bg-blue-50', text: 'text-blue-600', border: 'border-blue-200' },
+    green: { bg: 'bg-green-50', text: 'text-green-600', border: 'border-green-200' },
+    teal: { bg: 'bg-teal-50', text: 'text-teal-600', border: 'border-teal-200' },
+    orange: { bg: 'bg-orange-50', text: 'text-orange-600', border: 'border-orange-200' },
+    purple: { bg: 'bg-purple-50', text: 'text-purple-600', border: 'border-purple-200' },
+  };
+
   const areas = [
     {
       icon: Cpu,
@@ -79,51 +87,51 @@ export function Research() {
   ];
 
   return (
-    <section id="education" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-slate-50">
+    <section id="research" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Education</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Research Areas</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            A strong foundation in engineering and computer science, with ongoing doctoral research
-            at one of the world's leading universities.
+            My research focuses on interdisciplinary approaches combining engineering,
+            computational methods, and emerging technologies to solve real-world challenges.
           </p>
         </div>
 
-        <div className="space-y-6">
-          {education.map((edu, index) => {
-            const colors = colorClasses[edu.color];
+        <div className="grid md:grid-cols-2 gap-6">
+          {areas.map((area, index) => {
+            const Icon = area.icon;
+            const colors = colorClasses[area.color];
             return (
               <div
                 key={index}
-                className={`${colors.bg} border-2 ${colors.border} rounded-xl p-8 hover:shadow-xl transition-all duration-300`}
+                className={`${colors.bg} border-2 ${colors.border} rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-105`}
               >
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className={`p-2 rounded-lg ${colors.bg} border ${colors.border}`}>
-                        <GraduationCap className={`w-6 h-6 ${colors.text}`} />
-                      </div>
-                      <span className={`text-xs font-semibold px-3 py-1 rounded-full ${colors.badge}`}>
-                        {edu.status}
-                      </span>
-                    </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{edu.degree}</h3>
-                    <p className="text-lg font-medium text-gray-700 mb-3">{edu.institution}</p>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-600">
-                      <span className="flex items-center gap-1">
-                        <MapPin className="w-4 h-4" />
-                        {edu.location}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <Calendar className="w-4 h-4" />
-                        {edu.year}
-                      </span>
-                    </div>
-                  </div>
+                <div className={`inline-flex p-3 rounded-lg ${colors.bg} border ${colors.border} mb-4`}>
+                  <Icon className={`w-8 h-8 ${colors.text}`} />
                 </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{area.title}</h3>
+                <p className="text-gray-700 leading-relaxed">{area.description}</p>
               </div>
             );
           })}
+        </div>
+
+        <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-gray-100">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Research Impact</h3>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="space-y-2">
+              <div className="text-4xl font-bold text-blue-600">Multiple</div>
+              <div className="text-gray-600 font-medium">Publications in High-Impact Journals</div>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl font-bold text-green-600">5</div>
+              <div className="text-gray-600 font-medium">Key Research Areas</div>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl font-bold text-orange-600">10+</div>
+              <div className="text-gray-600 font-medium">Years of Academic Experience</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
