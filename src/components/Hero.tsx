@@ -27,13 +27,17 @@ export function Hero() {
                 Research Assistant @ RoCkeTEd Lab | Purdue Polytechnic
               </span>
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-              Abasiafak Udosen, PhD(ABD)
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
+              Abasiafak Udosen PhD(ABD)
             </h1>
-            
+
+            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="abasiafakudosenb74737117" data-version="v1">
+              <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/abasiafakudosenb74737117?trk=profile-badge">Abasiafak Udosen</a>
+            </div>
+
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak</span> pronounced as <span className="font-bold text-gray-900">Ah-bah-SEE-ah-fak</span>, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
+                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak</span> pronounced as Ah-bah-SEE-ah-fak, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-4">
@@ -50,7 +54,7 @@ export function Hero() {
 
               <div className="mt-6 bg-gray-50 rounded-lg p-5">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">Research Interests</h3>
-                <ul className="space-y-2 text-base text-gray-700">
+                <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2 mt-1">•</span>
                     <span>Model-based and mechanistic scientific reasoning in STEM learning</span>
@@ -73,7 +77,7 @@ export function Hero() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Computational modeling of thermo-fluids systems (e.g TES-PCM property selection and configuration model), biological processes (CFD, biophysics, cellular dynamics)</span>
+                    <span>Computational modeling of biological processes (CFD, biophysics, cellular dynamics)</span>
                   </li>
                 </ul>
               </div>
