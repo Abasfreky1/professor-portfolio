@@ -1,91 +1,146 @@
-import { Users, Briefcase, Award } from 'lucide-react';
+import { Mail, Linkedin, BookOpen, Award, FileDown } from 'lucide-react';
+import { useEffect } from 'react';
 
-export function About() {
-  const memberships = [
-    'American Society for Engineering Education',
-    'National Society of Black Engineers',
-    'American Society of Mechanical Engineers',
-  ];
+export function Hero() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+    script.async = true;
+    script.defer = true;
+    script.type = 'text/javascript';
+    document.body.appendChild(script);
 
-  const positions = [
-    {
-      title: 'Instructor, EMBRIO',
-      institution: 'Purdue University West Lafayette',
-      period: '2024 - Present',
-    },
-    {
-      title: 'Research Assistant',
-      institution: 'Purdue University West Lafayette',
-      department: 'School of Applied and Creative Computing',
-      period: '2022 - Present',
-    },
-    {
-      title: 'Instructor, Mechanical Engineering',
-      institution: 'University of Cape Town',
-      period: '2020 - 2022',
-    },
-    {
-      title: 'Lecturer 1, Mechanical Engineering',
-      institution: 'University of Nigeria, Nsukka',
-      period: '2015 - 2022',
-    },
-  ];
+    return () => {
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
 
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="home" className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            An experienced educator and researcher dedicated to studying how humans and machines learn,
-            with expertise in computational modeling, artificial intelligence in education, and human-AI teaming.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-slate-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-6">
-              <Briefcase className="w-8 h-8 text-blue-600 mr-3" />
-              <h3 className="text-2xl font-bold text-gray-900">Professional Experience</h3>
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
+            <div className="inline-block">
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-1 rounded-full">
+                Research Assistant @ RoCkeTEd Lab | Purdue Polytechnic
+              </span>
             </div>
-            <div className="space-y-6">
-              {positions.map((position, index) => (
-                <div key={index} className="border-l-4 border-blue-600 pl-4">
-                  <h4 className="font-semibold text-gray-900">{position.title}</h4>
-                  <p className="text-sm text-gray-600">{position.institution}</p>
-                  {position.department && (
-                    <p className="text-sm text-gray-600">{position.department}</p>
-                  )}
-                  <p className="text-xs text-gray-500 mt-1">{position.period}</p>
-                </div>
-              ))}
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
+              Abasiafak Udosen PhD(ABD)
+            </h1>
+
+            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="abasiafakudosenb74737117" data-version="v1">
+              <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/abasiafakudosenb74737117?trk=profile-badge">Abasiafak Udosen</a>
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Hey there — my name is <span className="font-bold text-gray-900">Abasiafak</span> pronounced as Ah-bah-SEE-ah-fak, but most people call me <span className="font-bold text-gray-900">Abass</span> or <span className="font-bold text-gray-900">Aby</span>…
+              </p>
+
+              <p className="text-base text-gray-600 leading-relaxed mt-4">
+                I am a <span className="font-semibold text-gray-900">PhD candidate in Computer & Information Technology at Purdue University</span>, where I work at the intersection of <span className="font-semibold">computational modeling, computing/engineering education, and AI/ML applications</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
+              </p>
+
+              <p className="text-base text-gray-600 leading-relaxed mt-3">
+                At Purdue, I conduct research with the <span className="font-semibold text-gray-900">ROCKetED Lab</span> and the <span className="font-semibold text-gray-900">NSF-funded EMBRIO Institute</span>, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — from deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
+              </p>
+
+              <p className="text-base text-gray-600 leading-relaxed mt-3">
+                Before coming to Purdue, I taught mechanical engineering for several years at the <span className="font-semibold">University of Nigeria</span> and later served as an instructor and mentor in engineering and quantitative methods at the <span className="font-semibold">University of Cape Town</span> in South Africa.
+              </p>
+
+              <div className="mt-6 bg-gray-50 rounded-lg p-5">
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Research Interests</h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">•</span>
+                    <span>Model-based and mechanistic scientific reasoning in STEM learning</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">•</span>
+                    <span>Human–AI teaming in learning and decision-making contexts</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">•</span>
+                    <span>STEM education, learning analytics, and AI-supported instruction</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">•</span>
+                    <span>Team-based modeling and simulation, coordination dynamics, and complex systems</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">•</span>
+                    <span>Machine learning and AI for scientific imaging, cybersecurity, explainable AI (DL, RL, computer vision, pattern recognition)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2 mt-1">•</span>
+                    <span>Computational modeling of thermo-fluids systems (e.g TES-PCM property selection and configuration model), biological processes (CFD, biophysics, cellular dynamics)</span>
+                  </li>
+                </ul>
+              </div>
+
+              <p className="text-sm text-gray-500 italic mt-4">
+                Thanks for stopping by — and feel free to explore my work, publications, and ongoing projects.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4 pt-4">
+              <a
+                href="#contact"
+                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <Mail className="w-5 h-5 mr-2" />
+                Get in Touch
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abasiafakudosenb74737117/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
+              >
+                <Linkedin className="w-5 h-5 mr-2" />
+                LinkedIn
+              </a>
+              <a
+                href="/professor-portfolio/11_5_Updated_Abas_Resume.pdf"
+                download
+                className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
+              >
+                <FileDown className="w-5 h-5 mr-2" />
+                Download CV
+              </a>
+            </div>
+            <div className="flex gap-6 pt-2">
+              <a
+                href="https://scholar.google.com/citations?user=TNpErlUAAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                <BookOpen className="w-5 h-5 mr-2" />
+                Google Scholar
+              </a>
+              <a
+                href="https://orcid.org/0000-0002-2421-181X"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                <Award className="w-5 h-5 mr-2" />
+                ORCID
+              </a>
             </div>
           </div>
-
-          <div className="bg-slate-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-6">
-              <Users className="w-8 h-8 text-blue-600 mr-3" />
-              <h3 className="text-2xl font-bold text-gray-900">Professional Memberships</h3>
-            </div>
-            <ul className="space-y-4">
-              {memberships.map((membership, index) => (
-                <li key={index} className="flex items-start">
-                  <Award className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700">{membership}</span>
-                </li>
-              ))}
-            </ul>
-
-            <div className="mt-8 pt-8 border-t border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">External Identifiers</h4>
-              <div className="space-y-2 text-sm">
-                <p className="text-gray-700">
-                  <span className="font-medium">ResearcherID:</span> D-1402-2019
-                </p>
-                <p className="text-gray-700">
-                  <span className="font-medium">Scopus Author ID:</span> 58837699600
-                </p>
-              </div>
+          <div className="relative">
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+              <img
+                src="/professor-portfolio/profile-photo.jpg"
+                alt="Abasiafak Udosen"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
