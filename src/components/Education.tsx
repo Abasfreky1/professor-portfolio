@@ -54,10 +54,6 @@ export function Education() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Education</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            A strong foundation in engineering and computer science, with ongoing doctoral research
-            at one of the world's leading universities.
-          </p>
         </div>
 
         <div className="space-y-6">
@@ -101,9 +97,9 @@ export function Education() {
           <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Academic Journey</h3>
           <p className="text-gray-700 text-center max-w-3xl mx-auto leading-relaxed">
             With a comprehensive educational background across engineering, computing and Information technology,
-            my academic journey reflects a commitment to interdisciplinary research and continuous learning.
-            Currently pursuing a PhD at Purdue University, I'm focused on advancing knowledge in computational
-            modeling and simulation education, applied artificial intelligence, and sustainable engineering solutions.
+            my academic journey reflects a commitment to interdisciplinary research and continuous learning. 
+            I'm focused on advancing knowledge in computational modeling and simulation education, applied artificial intelligence, 
+            and sustainable engineering solutions.
           </p>
         </div>
       </div>
