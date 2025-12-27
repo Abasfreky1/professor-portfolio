@@ -27,7 +27,7 @@ export function Hero() {
                 Research Assistant @ RoCkeTEd Lab | Purdue Polytechnic
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
               Abasiafak Udosen PhD(ABD)
             </h1>
 
