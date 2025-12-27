@@ -151,20 +151,7 @@ export function Research() {
           })}
         </div>
 
-        <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-gray-100">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Research Impact</h3>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-blue-600">Multiple</div>
-              <div className="text-gray-600 font-medium">Publications in High-Impact Journals</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-green-600">5</div>
-              <div className="text-gray-600 font-medium">Key Research Areas</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-orange-600">10+</div>
-              <div className="text-gray-600 font-medium">Years of Academic Experience</div>
+
             </div>
           </div>
         </div>
