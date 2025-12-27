@@ -9,6 +9,11 @@ export function About() {
 
   const positions = [
     {
+      title: 'Instructor, EMBRIO',
+      institution: 'Purdue University West Lafayette',
+      period: '2024 - Present',
+    },
+    {
       title: 'Research Assistant',
       institution: 'Purdue University West Lafayette',
       department: 'School of Applied and Creative Computing',
@@ -32,8 +37,8 @@ export function About() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            An experienced educator and researcher with a passion for computational modeling,
-            artificial intelligence in education, and sustainable engineering solutions.
+            An experienced educator and researcher dedicated to studying how humans and machines learn,
+            with expertise in computational modeling, artificial intelligence in education, and human-AI teaming.
           </p>
         </div>
 
