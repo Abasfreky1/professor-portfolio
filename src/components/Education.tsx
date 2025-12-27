@@ -19,7 +19,7 @@ export function Education() {
       color: 'green',
     },
     {
-      degree: 'B.Eng in Mechanical Engineering',
+      degree: 'MEng in Mechanical Engineering',
       institution: 'Igbinedion University',
       location: 'Okada, Nigeria',
       status: 'Completed',
@@ -54,6 +54,10 @@ export function Education() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Education</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            A strong foundation in engineering and computer science, with ongoing doctoral research
+            at one of the world's leading universities.
+          </p>
         </div>
 
         <div className="space-y-6">
@@ -106,4 +110,3 @@ export function Education() {
     </section>
   );
 }
-
