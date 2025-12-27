@@ -102,8 +102,8 @@ export function Education() {
           <p className="text-gray-700 text-center max-w-3xl mx-auto leading-relaxed">
             With a comprehensive educational background spanning mechanical engineering and computer science,
             my academic journey reflects a commitment to interdisciplinary research and continuous learning.
-            Currently pursuing a PhD at Purdue University, I'm focused on advancing knowledge in computational
-            modeling, artificial intelligence, and sustainable engineering solutions.
+            Currently pursuing a PhD at Purdue University, I'm focused on understanding how humans and machines learn,
+            exploring human-AI teaming, computational modeling, and AI in education.
           </p>
         </div>
       </div>
