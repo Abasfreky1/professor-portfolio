@@ -73,11 +73,11 @@ export function Hero() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Machine learning and AI for scientific imaging (DL, computer vision, pattern recognition)</span>
+                    <span>Machine learning and AI for scientific imaging, cybersecurity, explainable AI (DL, RL, computer vision, pattern recognition)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Computational modeling of biological processes (CFD, biophysics, cellular dynamics)</span>
+                    <span>Computational modeling of thermo-fluids systems (e.g TES-PCM property selection and configuration model), biological processes (CFD, biophysics, cellular dynamics)</span>
                   </li>
                 </ul>
               </div>
@@ -148,4 +148,3 @@ export function Hero() {
     </section>
   );
 }
-
