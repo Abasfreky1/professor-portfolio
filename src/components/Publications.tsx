@@ -9,15 +9,15 @@ export function Publications() {
       status: 'Recent',
     },
     {
-      title: 'Scaffolded team-based computational modeling and simulation projects',
+      title: 'Scaffolded Team-Based Computational Modeling and Simulation Projects for Promoting Model-Based Reasoning, Conceptual Understanding, and Regulatory Processes',
       year: 2024,
-      type: 'Conference Paper',
+      type: 'Journal Article',
       status: 'Published',
     },
     {
-      title: 'The Evolution of Team Coordination Commitments in Computational Projects',
-      year: 2023,
-      type: 'Research Article',
+      title: 'Characterizing Teamwork Dynamics and Computational Model-Based Reasoning in Biomedical Engineering Projects',
+      year: 2024,
+      type: 'Conference Paper',
       status: 'Published',
     },
   ];
@@ -28,8 +28,7 @@ export function Publications() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Publications</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Selected recent publications showcasing research in artificial intelligence,
-            computational modeling, and educational technology.
+            Selected recent publications showcasing research in computing and engineering education, computational modeling, and artificial intelligence applications.
           </p>
         </div>
 
