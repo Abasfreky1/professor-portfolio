@@ -9,14 +9,14 @@ export function About() {
 
   const positions = [
     {
-      title: 'Research Assistant, RoCkeTEd Laboratory',
-      institution: 'Purdue University West Lafayette',
+      title: 'Research Assistant, Computer & Info tech',
+      institution: 'RoCkeTEd Laboratory, Purdue University West Lafayette',
       department: 'School of Applied and Creative Computing',
       period: '2022 - Present',
     },
     {
-      title: 'Instructor, EMBRIO',
-      institution: 'Purdue University West Lafayette',
+      title: 'Instructor, Computational Understanding of Bio-Systems & Data',
+      institution: 'EMBRIO, Purdue University West Lafayette',
       period: '2024 - Present',
     },
     {
@@ -25,7 +25,7 @@ export function About() {
       period: '2019 - 2022',
     },
     {
-      title: 'Lecturer I-II, Mechanical Engineering',
+      title: 'Faculty Member (Lecturer I-II), Mechanical Engineering',
       institution: 'University of Nigeria, Nsukka',
       period: '2015 - 2022',
     },
