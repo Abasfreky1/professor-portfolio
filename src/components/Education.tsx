@@ -96,8 +96,8 @@ export function Education() {
         <div className="mt-12 bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
           <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Academic Journey</h3>
           <p className="text-gray-700 text-center max-w-3xl mx-auto leading-relaxed">
-            With a comprehensive educational background across engineering, computing and Information technology,
-            my academic journey reflects a commitment to interdisciplinary research and continuous learning. 
+            My educational background is comprehensive and cuts across engineering, computing and information technology,
+            and reflects a commitment to interdisciplinary research and continuous learning. 
             I'm focused on advancing knowledge in computational modeling and simulation education, applied artificial intelligence, 
             and sustainable engineering solutions.
           </p>
