@@ -46,7 +46,7 @@ export function Hero() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                At Purdue, I conduct research with the <span className="font-semibold text-gray-900">ROCKetED Lab</span> and the <span className="font-semibold text-gray-900">NSF-funded EMBRIO Institute</span>, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — from deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
+                At Purdue, I conduct research with the <span className="font-semibold text-gray-900">ROCKetED Lab</span> and the <span className="font-semibold text-gray-900">EMBRIO Institute</span>, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — from deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
