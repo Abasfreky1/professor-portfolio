@@ -5,13 +5,13 @@ export function Publications() {
     {
       title: 'Bayesian Reinforcement Learning for Robust and Trustworthy Energy Management under Uncertainty',
       year: 2025,
-      type: "Conference Paper, Springer's Lecture Notes in Networks and Systems",
+      type: "Conference Paper",
       status: 'Under review',
     },
     {
       title: 'Trustworthy Federated Learning for Intelligent CAN Bus Intrusion Detection in Connected and Autonomous Vehicles',
       year: 2025,
-      type: 'Conference Paper, Springer Nature',
+      type: 'Conference Paper',
       status: 'Under review',
     },
     {
@@ -49,7 +49,7 @@ export function Publications() {
                   <div className="flex items-center gap-3 mb-2">
                     <BookOpen className="w-5 h-5 text-blue-600 flex-shrink-0" />
                     <span className={`text-xs font-semibold px-3 py-1 rounded-full ${
-                      pub.status === 'Recent'
+                      pub.status === 'Under review'
                         ? 'bg-green-100 text-green-700'
                         : 'bg-blue-100 text-blue-700'
                     }`}>
