@@ -3,10 +3,16 @@ import { BookOpen, ExternalLink, Calendar } from 'lucide-react';
 export function Publications() {
   const publications = [
     {
-      title: 'Artificial intelligence tools: a potential for error-free scholarly communication in Nigerian universities',
+      title: 'Bayesian Reinforcement Learning for Robust and Trustworthy Energy Management under Uncertainty',
       year: 2025,
-      type: 'Journal Article',
-      status: 'Recent',
+      type: "Conference Paper, Springer's Lecture Notes in Networks and Systems",
+      status: 'Under review',
+    },
+    {
+      title: 'Trustworthy Federated Learning for Intelligent CAN Bus Intrusion Detection in Connected and Autonomous Vehicles',
+      year: 2025,
+      type: 'Conference Paper, Springer Nature',
+      status: 'Under review',
     },
     {
       title: 'Scaffolded Team-Based Computational Modeling and Simulation Projects for Promoting Model-Based Reasoning, Conceptual Understanding, and Regulatory Processes',
