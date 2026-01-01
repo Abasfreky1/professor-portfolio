@@ -37,7 +37,7 @@ export function About() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            I study how humans and machines learn and think. My PhD work investigates scientific (model-based and mechanistic) reasonings in engineering teams using qualitative, quantitative, mixed/multimethods and artificial intelligence-based approaches. I am also involved with sustainable thermo-fluids and biophysics systems modeling and simulations. I have conducted independent studies in using AI/ML, XAI, FedRL and DL approaches to solve problems in biomedical and cybersecurity spaces.
+            I study how engineers and machines learn and think. My PhD work investigates scientific (model-based and mechanistic) reasonings in engineering teams using qualitative, quantitative, mixed/multimethods and artificial intelligence-based approaches. I am also involved with sustainable thermo-fluids and biophysics systems modeling and simulations. I have conducted independent studies in using AI/ML, XAI, FedRL and DL approaches to solve problems in biomedical and cybersecurity spaces.
           </p>
         </div>
 
