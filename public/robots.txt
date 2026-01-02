@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abasfreky1.github.io/professor-portfolio/sitemap.xml
