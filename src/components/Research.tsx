@@ -34,14 +34,14 @@ export function Research() {
     {
       icon: Users,
       title: 'Human–AI Teaming & Learning Analytics',
-      description: 'Studying human-AI collaboration in learning contexts, team coordination dynamics, and AI-supported instruction.',
+      description: 'Studying human-AI collaboration in learning contexts, team coordination dynamics, and AI-supported instruction and assessment.',
       color: 'teal',
       image: '/professor-portfolio/human-ai-teaming.jpg',
       overview: 'This research area investigates how humans and AI systems can work together effectively in educational and team settings. The work focuses on understanding coordination dynamics, communication patterns, and the cognitive aspects of human-AI collaboration to optimize learning outcomes and team performance.',
       futureWork: [
         'Design and test human–AI teaming setups in classroom/lab deployments',
         'Analyzing team coordination in human-AI collaborative learning',
-        'Developing learning analytics frameworks for AI-supported instruction',
+        'Developing learning analytics frameworks for AI-supported instruction and assessment',
         'Investigating cognitive load in human-AI teaming scenarios',
         'Creating metrics for evaluating human-AI team effectiveness',
         'Exploring adaptive AI systems for personalized learning support'
