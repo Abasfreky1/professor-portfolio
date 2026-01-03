@@ -42,7 +42,7 @@ export function Hero() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-4">
-                I am a <span className="font-semibold text-gray-900">PhD candidate in Computer & Information Technology at Purdue University</span>, where I work at the intersection of <span className="font-semibold">computational modeling, computing/engineering education, and AI/ML applications</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
+                I am a <span className="font-semibold text-gray-900">PhD candidate in Computer & Information Technology at Purdue University</span>, where I work at the intersection of <span className="font-semibold text-gray-900">computational modeling, computing/engineering education, and AI/ML applications</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
@@ -50,7 +50,7 @@ export function Hero() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                Before coming to Purdue, I taught mechanical engineering for several years at the <span className="font-semibold">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold">University of Cape Town</span> in South Africa.
+                Before coming to Purdue, I taught mechanical engineering for several years at the <span className="font-semibold text-gray-900">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold text-gray-900">University of Cape Town</span> in South Africa.
               </p>
 
               <div className="mt-6 bg-gray-50 rounded-lg p-5">
