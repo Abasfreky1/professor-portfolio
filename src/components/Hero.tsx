@@ -50,7 +50,7 @@ export function Hero() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                Before coming to Purdue, I taught mechanical engineering for several years at the <span className="font-semibold text-gray-900">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold text-gray-900">University of Cape Town</span> in South Africa.
+                Before coming to Purdue, I conducted research and taught courses in mechanical engineering for several years at the <span className="font-semibold text-gray-900">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold text-gray-900">University of Cape Town</span> in South Africa.
               </p>
 
               <div className="mt-6 bg-gray-50 rounded-lg p-5">
