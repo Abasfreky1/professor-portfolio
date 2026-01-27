@@ -46,11 +46,11 @@ export function Hero() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                At Purdue, I conduct research with the <span className="font-semibold text-gray-900">ROCKetED Lab</span> and the <span className="font-semibold text-gray-900">EMBRIO Institute</span>, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — from deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
+                At Purdue, I conduct research with the <span className="font-semibold text-gray-900">ROCKetED Lab</span> and the <span className="font-semibold text-gray-900">EMBRIO Institute</span>, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — such as deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                Before coming to Purdue, I conducted research and taught courses in mechanical engineering for several years at the <span className="font-semibold text-gray-900">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold text-gray-900">University of Cape Town</span> in South Africa.
+                Before coming to Purdue, I served as faculty member, conducted research and taught courses in mechanical engineering for several years at the <span className="font-semibold text-gray-900">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold text-gray-900">University of Cape Town</span> in South Africa.
               </p>
 
               <div className="mt-6 bg-gray-50 rounded-lg p-5">
