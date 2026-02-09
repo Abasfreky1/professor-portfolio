@@ -42,7 +42,7 @@ export function Hero() {
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-4">
-                I am a <span className="font-semibold text-gray-900">PhD candidate of Computer & Information Technology at Purdue University</span>, with a major in <span className="font-semibold text-gray-900">computing and engineering education</span> and minor in <span className="font-semibold text-gray-900">AI/ML applications</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
+                I am a <span className="font-semibold text-gray-900">PhD candidate of Computer & Information Technology at Purdue University</span>, with a major in <span className="font-semibold text-gray-900">Computing and Engineering Education</span> and minor in <span className="font-semibold text-gray-900">AI/ML & Data applications</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
