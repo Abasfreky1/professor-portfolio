@@ -17,7 +17,7 @@ export function About() {
     {
       title: 'Instructor, Biomedical Engineering',
       institution: 'EMBRIO, Purdue University West Lafayette',
-      period: '2024 - Present',
+      period: '2024 - 2025',
     },
     {
       title: 'Instructor, Mechanical Engineering',
