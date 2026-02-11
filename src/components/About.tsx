@@ -15,7 +15,7 @@ export function About() {
       period: '2022 - Present',
     },
     {
-      title: 'Instructor, Computational Understanding of Bio-Systems & Data',
+      title: 'Instructor, Biomedical Engineering',
       institution: 'EMBRIO, Purdue University West Lafayette',
       period: '2024 - Present',
     },
@@ -76,13 +76,13 @@ export function About() {
             </ul>
 
             <div className="mt-8 pt-8 border-t border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">External Identifiers</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">Taught Courses</h4>
               <div className="space-y-2 text-sm">
                 <p className="text-gray-700">
-                  <span className="font-medium">ResearcherID:</span> D-1402-2019
+                  <span className="font-medium">Ungergraduate:</span> Thermodynamics, Measurement & Instrumentation, Engineering Metallurgy, Quantitative Methods 
                 </p>
                 <p className="text-gray-700">
-                  <span className="font-medium">Scopus Author ID:</span> 58837699600
+                  <span className="font-medium">Graduate:</span> Power Plant Systems, Computational Bio-Sys & Data
                 </p>
               </div>
             </div>
