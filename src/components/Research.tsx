@@ -7,7 +7,7 @@ export function Research() {
   const areas = [
     {
       icon: Cpu,
-      title: 'Computational Modeling & Simulation',
+      title: 'Thermo-fluids Systems Process Modeling & Simulation',
       description: 'Advanced computational techniques for modeling complex systems and engineering processes.',
       color: 'blue',
       image: '/professor-portfolio/computational-modeling.jpg',
