@@ -106,7 +106,7 @@ export function Hero() {
                 LinkedIn
               </a>
               <a
-                href="/professor-portfolio/11_5_Updated_Abas_Resume.pdf"
+                href="/professor-portfolio/Resume.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
               >
