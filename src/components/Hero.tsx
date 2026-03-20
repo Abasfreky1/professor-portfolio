@@ -38,8 +38,7 @@ export function Hero() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-base text-gray-600 leading-relaxed">
-                Hey there — my name is <span className="font-bold text-gray-700">Abasiafak</span> pronounced as Ah-bah-SEE-ah-fak, and most people call me <span className="font-bold text-gray-700">Abass</span> or <span className="font-bold text-gray-700">Aby</span>.  
-              </p>
+                Hey there — my name is <span className="font-bold text-gray-700">Abasiafak</span> pronounced as Ah-bah-SEE-ah-fak, and most people call me <span className="font-bold text-gray-700">Abass</span>.
 
               <p className="text-base text-gray-600 leading-relaxed mt-4">
                 I am a <span className="font-semibold text-gray-900">PhD candidate of Computer & Information Technology at Purdue University</span>, with a major in <span className="font-semibold text-gray-900">Computing and Engineering Education</span> and minor in <span className="font-semibold text-gray-900">AI/ML & Data applications</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
