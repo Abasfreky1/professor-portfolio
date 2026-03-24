@@ -19,7 +19,7 @@ export function Research() {
     {
       icon: Brain,
       title: 'Artificial Intelligence in Education',
-      description: 'Exploring AI tools and methodologies to enhance scholarly communication and educational outcomes.',
+      description: 'Exploring AI tools and methodologies to enhance educational outcomes.',
       color: 'green',
       image: '/professor-portfolio/poster.jpeg',
       overview: 'This research area explores the application of artificial intelligence in educational settings, focusing on how AI tools can enhance scholarly communication, improve learning outcomes, and support evidence-based teaching practices. The work examines both the opportunities and challenges of integrating AI into educational environments.',
