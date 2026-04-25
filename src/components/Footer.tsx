@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <GraduationCap className="w-6 h-6 text-blue-400" />
-              <span className="font-bold text-white">Abasiafak Udosen</span>
+              <span className="font-bold text-white">Dr. Abasiafak Udosen</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               Research Assistant at Purdue University, specializing in computational modeling,
