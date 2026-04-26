@@ -7,7 +7,7 @@ export function Education() {
       institution: 'Purdue University West Lafayette',
       location: 'West Lafayette, IN, USA',
       status: 'In Progress',
-      year: 'Expected 2026',
+      year: '2026',
       color: 'blue',
     },
     {
