@@ -28,7 +28,7 @@ export function Hero() {
               </span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-              Abasiafak Udosen, PhD
+              Abasiafak Udosen, PhD(Cand.,)
             </h1>
 
             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="abasiafakudosenb74737117" data-version="v1">
