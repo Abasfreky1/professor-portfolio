@@ -3,18 +3,6 @@ import { BookOpen, ExternalLink, Calendar } from 'lucide-react';
 export function Publications() {
   const publications = [
     {
-      title: 'Bayesian Reinforcement Learning for Robust and Trustworthy Energy Management under Uncertainty',
-      year: 2025,
-      type: "Conference Paper",
-      status: 'Under review',
-    },
-    {
-      title: 'Trustworthy Federated Learning for Intelligent CAN Bus Intrusion Detection in Connected and Autonomous Vehicles',
-      year: 2025,
-      type: 'Conference Paper',
-      status: 'Under review',
-    },
-    {
       title: 'Scaffolded Team-Based Computational Modeling and Simulation Projects for Promoting Model-Based Reasoning, Conceptual Understanding, and Regulatory Processes',
       year: 2024,
       type: 'Journal Article',
@@ -25,6 +13,12 @@ export function Publications() {
       year: 2024,
       type: 'Conference Paper',
       status: 'Published',
+    },
+    {
+      title: 'Deep Learning-Based Malware Detection in Cyber-Physical Systems Using Wavelet-Encoded Traffic and Binary Features',
+      year: 2025,
+      type: "Conference Paper",
+      status: 'Under review',
     },
   ];
 
