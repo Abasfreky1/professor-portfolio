@@ -8,7 +8,7 @@ export function Publications() {
       type: 'Journal Article',
       status: 'Published',
     },
-     {
+    {
       title: 'The Evolution of Team Coordination Commitments in the Context of Computational Projects',
       year: 2023,
       type: 'Conference Paper',
@@ -25,6 +25,12 @@ export function Publications() {
       year: 2025,
       type: "Conference Paper",
       status: 'Under review',
+    },
+    {
+      title: 'Model-Based Reasoning in STEM education: A Systematic Literature Review',
+      year: 2026,
+      type: 'Journal Article',
+      status: 'In Press',
     },
   ];
 
