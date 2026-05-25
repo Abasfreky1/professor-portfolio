@@ -8,6 +8,12 @@ export function Publications() {
       type: 'Journal Article',
       status: 'Published',
     },
+     {
+      title: 'The Evolution of Team Coordination Commitments in the Context of Computational Projects',
+      year: 2023,
+      type: 'Conference Paper',
+      status: 'Published',
+    },
     {
       title: 'Characterizing Teamwork Dynamics and Computational Model-Based Reasoning in Biomedical Engineering Projects',
       year: 2024,
