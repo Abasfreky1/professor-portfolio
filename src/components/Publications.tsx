@@ -30,7 +30,7 @@ export function Publications() {
       title: 'Model-Based Reasoning in STEM education: A Systematic Literature Review',
       year: 2026,
       type: 'Journal Article',
-      status: 'In Press',
+      status: 'Published',
     },
   ];
 
