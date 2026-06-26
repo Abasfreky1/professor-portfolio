@@ -3,7 +3,7 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 export function Education() {
   const education = [
     {
-      degree: 'PhD in Computer and Information Technology',
+      degree: 'PhD in Computer & Information Technology',
       institution: 'Purdue University West Lafayette',
       location: 'West Lafayette, IN, USA',
       status: 'Completed',
