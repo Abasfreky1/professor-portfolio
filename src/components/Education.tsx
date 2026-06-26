@@ -6,7 +6,7 @@ export function Education() {
       degree: 'PhD in Computer and Information Technology',
       institution: 'Purdue University West Lafayette',
       location: 'West Lafayette, IN, USA',
-      status: 'In Progress',
+      status: 'Completed',
       year: '2026',
       color: 'blue',
     },
