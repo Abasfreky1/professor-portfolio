@@ -2,21 +2,6 @@ import { Mail, Linkedin, BookOpen, Award, FileDown } from 'lucide-react';
 import { useEffect } from 'react';
 
 export function Hero() {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://platform.linkedin.com/badges/js/profile.js';
-    script.async = true;
-    script.defer = true;
-    script.type = 'text/javascript';
-    document.body.appendChild(script);
-
-    return () => {
-      if (document.body.contains(script)) {
-        document.body.removeChild(script);
-      }
-    };
-  }, []);
-
   return (
     <section id="home" className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
