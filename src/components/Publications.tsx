@@ -26,7 +26,7 @@ export function Publications() {
     {
       title: 'Deep Learning-Based Malware Detection in Cyber-Physical Systems Using Wavelet-Encoded Traffic and Binary Features',
       year: 2025,
-      type: 'Conference Paper',
+      type: 'Preprint',
       status: 'Under review',
       url: 'https://www.researchgate.net/publication/405746929_Deep_Learning-Based_Malware_Detection_in_Cyber-Physical_Systems_Using_Wavelet-Encoded_Traffic_and_Binary_Features',
     },
