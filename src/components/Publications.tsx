@@ -3,34 +3,39 @@ import { BookOpen, ExternalLink, Calendar } from 'lucide-react';
 export function Publications() {
   const publications = [
     {
-      title: 'Scaffolded Team-Based Computational Modeling and Simulation Projects for Promoting Model-Based Reasoning, Conceptual Understanding, and Regulatory Processes',
+      title: 'Scaffolded Team-Based Computational Modeling and Simulation Projects for Promoting Representational Competence and Regulatory Skills',
       year: 2024,
       type: 'Journal Article',
       status: 'Published',
+      url: 'https://doi.org/10.1186/s40594-024-00494-3',
     },
     {
       title: 'The Evolution of Team Coordination Commitments in the Context of Computational Projects',
       year: 2023,
       type: 'Conference Paper',
       status: 'Published',
+      url: 'https://doi.org/10.1109/FIE58773.2023.10343201',
     },
     {
       title: 'Characterizing Teamwork Dynamics and Computational Model-Based Reasoning in Biomedical Engineering Projects',
       year: 2024,
       type: 'Conference Paper',
       status: 'Published',
+      url: 'https://doi.org/10.18260/1-2--48455',
     },
     {
       title: 'Deep Learning-Based Malware Detection in Cyber-Physical Systems Using Wavelet-Encoded Traffic and Binary Features',
       year: 2025,
-      type: "Conference Paper",
+      type: 'Conference Paper',
       status: 'Under review',
+      url: 'https://www.researchgate.net/publication/405746929_Deep_Learning-Based_Malware_Detection_in_Cyber-Physical_Systems_Using_Wavelet-Encoded_Traffic_and_Binary_Features',
     },
     {
-      title: 'Model-Based Reasoning in STEM education: A Systematic Literature Review',
+      title: 'Model-Based Reasoning in STEM Education: A Systematic Literature Review',
       year: 2026,
       type: 'Journal Article',
       status: 'Published',
+      url: 'https://doi.org/10.1186/s40594-026-00621-2',
     },
   ];
 
@@ -62,8 +67,16 @@ export function Publications() {
                       {pub.status}
                     </span>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2 leading-snug">
-                    {pub.title}
+                  <h3 className="text-lg font-semibold mb-2 leading-snug">
+                    <a
+                      href={pub.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 hover:text-blue-600 transition-colors inline-flex items-start gap-1 group"
+                    >
+                      {pub.title}
+                      <ExternalLink className="w-4 h-4 mt-1 flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
                   </h3>
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <span className="flex items-center gap-1">
