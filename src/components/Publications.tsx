@@ -10,20 +10,6 @@ export function Publications() {
       url: 'https://doi.org/10.1186/s40594-024-00494-3',
     },
     {
-      title: 'The Evolution of Team Coordination Commitments in the Context of Computational Projects',
-      year: 2023,
-      type: 'Conference Paper',
-      status: 'Published',
-      url: 'https://doi.org/10.1109/FIE58773.2023.10343201',
-    },
-    {
-      title: 'Characterizing Teamwork Dynamics and Computational Model-Based Reasoning in Biomedical Engineering Projects',
-      year: 2024,
-      type: 'Conference Paper',
-      status: 'Published',
-      url: 'https://doi.org/10.18260/1-2--48455',
-    },
-    {
       title: 'Deep Learning-Based Malware Detection in Cyber-Physical Systems Using Wavelet-Encoded Traffic and Binary Features',
       year: 2026,
       type: 'Preprint',
