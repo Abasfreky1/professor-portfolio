@@ -93,7 +93,7 @@ export function Research() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Research Areas</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             My research focuses on interdisciplinary approaches combining engineering,
-            computational methods, and emerging technologies to solve real-world challenges.
+            computational methods, and emerging AI technologies to solve real-world challenges.
           </p>
         </div>
 
