@@ -23,7 +23,7 @@ export function Hero() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-base text-gray-600 leading-relaxed">
-                Hey there — my name is Abasiafak [Ah-bah-SEE-ah-fak] and I hold a PhD in Computer & Information Technology from Purdue University</span>, with a major in Cyberlearning and Computing/Engineering Education and minor in AI/ML and Big data applications of IT. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
+                Hey there — my name is Abasiafak [Ah-bah-SEE-ah-fak] and I hold a PhD in Computer & Information Technology from Purdue University, with a major in Cyberlearning and Computing/Engineering Education and minor in AI/ML and Big data applications of IT. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
