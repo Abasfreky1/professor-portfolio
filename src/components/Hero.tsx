@@ -23,15 +23,15 @@ export function Hero() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-base text-gray-600 leading-relaxed">
-                Hey there — my name is <span className="font-bold text-gray-700">Abasiafak</span> [Ah-bah-SEE-ah-fak] and I hold a <span className="font-semibold text-gray-900">PhD in Computer & Information Technology from Purdue University</span>, with a major in <span className="font-semibold text-gray-900">Cyberlearning and Computing/Engineering Education</span> and minor in <span className="font-semibold text-gray-900">AI/ML and Big data applications of IT</span>. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
+                Hey there — my name is Abasiafak [Ah-bah-SEE-ah-fak] and I hold a PhD in Computer & Information Technology from Purdue University</span>, with a major in Cyberlearning and Computing/Engineering Education and minor in AI/ML and Big data applications of IT. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                At Purdue, I conduct research with the <span className="font-semibold text-gray-900">ROCKetED Lab</span> and the <span className="font-semibold text-gray-900">EMBRIO Institute</span>, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — such as deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
+                At Purdue, I conduct research with the ROCKetED Lab and the EMBRIO Institute, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — such as deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
               </p>
 
               <p className="text-base text-gray-600 leading-relaxed mt-3">
-                Before coming to Purdue, I served as faculty member, conducted research and taught courses in mechanical engineering for several years at the <span className="font-semibold text-gray-900">University of Nigeria</span> and later served as an instructor and mentor in the faculty of engineering and numeracy center at the <span className="font-semibold text-gray-900">University of Cape Town</span> in South Africa.
+                Before coming to Purdue, I served as faculty member, conducted research and taught courses in mechanical engineering for several years at the University of Nigeria and later served as an instructor and mentor in the faculty of engineering and numeracy center at the University of Cape Town in South Africa.
               </p>
 
               <div className="mt-6 bg-gray-50 rounded-lg p-5">
