@@ -83,7 +83,7 @@ export function Hero() {
                 Research Interests
               </h3>
 
-              <ul className="space-y-2 text-sm text-gray-700">
+              <ul className="space-y-2 text-base text-gray-600 leading-relaxed">
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2 mt-1">•</span>
                   <span>
