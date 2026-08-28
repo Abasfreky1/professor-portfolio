@@ -1,123 +1,26 @@
 import { Mail, Linkedin, BookOpen, Award, FileDown } from 'lucide-react';
-import { useEffect } from 'react';
 
 export function Hero() {
   return (
     <section id="home" className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <div className="inline-block">
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-1 rounded-full">
-                Research Assistant @ RoCkeTEd Lab | Purdue Polytechnic
-              </span>
-            </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-              Abasiafak Udosen, PhD
-            </h1>
+      <div className="max-w-5xl mx-auto">
+        <div className="space-y-6">
 
-            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="abasiafakudosenb74737117" data-version="v1">
-              <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/abasiafakudosenb74737117?trk=profile-badge"> 
-              </a>
-            </div>
-
-            <div className="prose prose-lg max-w-none">
-              <p className="text-base text-gray-600 leading-relaxed">
-                Hey there — my name is Abasiafak [Ah-bah-SEE-ah-fak] and I hold a PhD in Computer & Information Technology from Purdue University, with a major in Cyberlearning and Computing/Engineering Education and minor in AI/ML and Big data applications of IT. Before Purdue, I trained as a Mechanical and Energy/Power Engineer, and over the years I've evolved into a broadly interdisciplinary researcher working across computational biology, machine learning, STEM education, and modeling & simulation.
-              </p>
-
-              <p className="text-base text-gray-600 leading-relaxed mt-3">
-                At Purdue, I conduct research with the ROCKetED Lab and the EMBRIO Institute, where I study how students reason with computational models, how teams coordinate during complex modeling projects, and how AI can support scientific thinking at scale. I also build applied AI systems — such as deep-learning pipelines that detect fertilization-induced rearrangements of cortical actin and their role in establishing the membrane block to polyspermy.
-              </p>
-
-              <p className="text-base text-gray-600 leading-relaxed mt-3">
-                Before coming to Purdue, I served as faculty member, conducted research and taught courses in mechanical engineering for several years at the University of Nigeria and later served as an instructor and mentor in the faculty of engineering and numeracy center at the University of Cape Town in South Africa.
-              </p>
-
-              <div className="mt-6 bg-gray-50 rounded-lg p-5">
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Research Interests</h3>
-                <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Model-based and mechanistic scientific reasoning in STEM learning</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Human–AI teaming in learning and decision-making contexts</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>STEM education, learning analytics, and AI-supported instruction</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Team-based modeling and simulation, coordination dynamics, and complex systems</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Machine learning and AI for scientific imaging, cybersecurity, explainable AI (DL, RL, computer vision, pattern recognition)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-600 mr-2 mt-1">•</span>
-                    <span>Computational modeling of thermo-fluids systems (e.g TES-PCM property selection and configuration model), biological processes (CFD, biophysics, cellular dynamics)</span>
-                  </li>
-                </ul>
-              </div>
-
-              <p className="text-sm text-gray-500 italic mt-4">
-                Thanks for stopping by — and feel free to explore my work, publications, and ongoing projects.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4 pt-4">
-              <a
-                href="#contact"
-                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                <Mail className="w-5 h-5 mr-2" />
-                Get in Touch
-              </a>
-              <a
-                href="https://www.linkedin.com/in/abasiafakudosenb74737117/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
-              >
-                <Linkedin className="w-5 h-5 mr-2" />
-                LinkedIn
-              </a>
-              <a
-                href="/professor-portfolio/Resume.pdf"
-                download
-                className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
-              >
-                <FileDown className="w-5 h-5 mr-2" />
-                Download CV
-              </a>
-            </div>
-            <div className="flex gap-6 pt-2">
-              <a
-                href="https://scholar.google.com/citations?user=TNpErlUAAAAJ&hl=en"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
-              >
-                <BookOpen className="w-5 h-5 mr-2" />
-                Google Scholar
-              </a>
-              <a
-                href="https://orcid.org/0000-0002-2421-181X"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
-              >
-                <Award className="w-5 h-5 mr-2" />
-                ORCID
-              </a>
-            </div>
+          {/* Position badge */}
+          <div className="inline-block">
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-1 rounded-full">
+              Research Assistant @ RoCkeTEd Lab | Purdue Polytechnic
+            </span>
           </div>
-          <div className="relative">
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+
+          {/* Name */}
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+            Abasiafak Udosen, PhD
+          </h1>
+
+          {/* Profile photo directly below name */}
+          <div className="w-48 sm:w-56 md:w-64">
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="/professor-portfolio/profile-photo.jpg"
                 alt="Abasiafak Udosen"
@@ -125,6 +28,169 @@ export function Hero() {
               />
             </div>
           </div>
+
+          {/* LinkedIn profile badge */}
+          <div
+            className="badge-base LI-profile-badge"
+            data-locale="en_US"
+            data-size="medium"
+            data-theme="light"
+            data-type="VERTICAL"
+            data-vanity="abasiafakudosenb74737117"
+            data-version="v1"
+          >
+            <a
+              className="badge-base__link LI-simple-link"
+              href="https://www.linkedin.com/in/abasiafakudosenb74737117?trk=profile-badge"
+            >
+            </a>
+          </div>
+
+          {/* Biography */}
+          <div className="prose prose-lg max-w-none">
+            <p className="text-base text-gray-600 leading-relaxed">
+              Hey there — my name is Abasiafak [Ah-bah-SEE-ah-fak] and I hold a PhD
+              in Computer & Information Technology from Purdue University, with a
+              major in Cyberlearning and Computing/Engineering Education and minor
+              in AI/ML and Big data applications of IT. Before Purdue, I trained as
+              a Mechanical and Energy/Power Engineer, and over the years I've
+              evolved into a broadly interdisciplinary researcher working across
+              computational biology, machine learning, STEM education, and modeling
+              & simulation.
+            </p>
+
+            <p className="text-base text-gray-600 leading-relaxed mt-3">
+              At Purdue, I conduct research with the ROCKetED Lab and the EMBRIO
+              Institute, where I study how students reason with computational
+              models, how teams coordinate during complex modeling projects, and
+              how AI can support scientific thinking at scale. I also build applied
+              AI systems — such as deep-learning pipelines that detect
+              fertilization-induced rearrangements of cortical actin and their role
+              in establishing the membrane block to polyspermy.
+            </p>
+
+            <p className="text-base text-gray-600 leading-relaxed mt-3">
+              Before coming to Purdue, I served as faculty member, conducted
+              research and taught courses in mechanical engineering for several
+              years at the University of Nigeria and later served as an instructor
+              and mentor in the faculty of engineering and numeracy center at the
+              University of Cape Town in South Africa.
+            </p>
+
+            {/* Research interests */}
+            <div className="mt-6 bg-gray-50 rounded-lg p-5">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                Research Interests
+              </h3>
+
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2 mt-1">•</span>
+                  <span>
+                    Model-based and mechanistic scientific reasoning in STEM learning
+                  </span>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2 mt-1">•</span>
+                  <span>
+                    Human–AI teaming in learning and decision-making contexts
+                  </span>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2 mt-1">•</span>
+                  <span>
+                    STEM education, learning analytics, and AI-supported instruction
+                  </span>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2 mt-1">•</span>
+                  <span>
+                    Team-based modeling and simulation, coordination dynamics, and
+                    complex systems
+                  </span>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2 mt-1">•</span>
+                  <span>
+                    Machine learning and AI for scientific imaging, cybersecurity,
+                    explainable AI (DL, RL, computer vision, pattern recognition)
+                  </span>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2 mt-1">•</span>
+                  <span>
+                    Computational modeling of thermo-fluids systems (e.g. TES-PCM
+                    property selection and configuration model), biological
+                    processes (CFD, biophysics, cellular dynamics)
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <p className="text-sm text-gray-500 italic mt-4">
+              Thanks for stopping by — and feel free to explore my work,
+              publications, and ongoing projects.
+            </p>
+          </div>
+
+          {/* Main buttons */}
+          <div className="flex flex-wrap gap-4 pt-4">
+            <a
+              href="#contact"
+              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <Mail className="w-5 h-5 mr-2" />
+              Get in Touch
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/abasiafakudosenb74737117/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
+            >
+              <Linkedin className="w-5 h-5 mr-2" />
+              LinkedIn
+            </a>
+
+            <a
+              href="/professor-portfolio/Resume.pdf"
+              download
+              className="inline-flex items-center px-6 py-3 bg-white text-gray-700 font-medium rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-colors"
+            >
+              <FileDown className="w-5 h-5 mr-2" />
+              Download CV
+            </a>
+          </div>
+
+          {/* Scholar and ORCID */}
+          <div className="flex flex-wrap gap-6 pt-2">
+            <a
+              href="https://scholar.google.com/citations?user=TNpErlUAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+            >
+              <BookOpen className="w-5 h-5 mr-2" />
+              Google Scholar
+            </a>
+
+            <a
+              href="https://orcid.org/0000-0002-2421-181X"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+            >
+              <Award className="w-5 h-5 mr-2" />
+              ORCID
+            </a>
+          </div>
+
         </div>
       </div>
     </section>
