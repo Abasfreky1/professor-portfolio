@@ -55,8 +55,8 @@ export function Hero() {
               in AI/ML and Big data applications of IT. Before Purdue, I trained as
               a Mechanical and Energy/Power Engineer, and over the years I've
               evolved into a broadly interdisciplinary researcher working across
-              computational biology, machine learning, STEM education, and modeling
-              & simulation.
+              computational biology, machine learning and artificial intelligence, 
+              STEM education, and modeling & simulation spaces.
             </p>
 
             <p className="text-base text-gray-600 leading-relaxed mt-3">
