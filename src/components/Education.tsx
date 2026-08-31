@@ -11,7 +11,7 @@ export function Education() {
       color: 'blue',
     },
     {
-      degree: 'M.Eng in Mechanical Engineering',
+      degree: 'M.Eng in Mechanical (Energy & Power) Engineering',
       institution: 'Federal University of Technology Owerri',
       location: 'Owerri, Nigeria',
       status: 'Completed',
