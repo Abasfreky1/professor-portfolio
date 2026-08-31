@@ -37,7 +37,7 @@ export function About() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            My PhD work investigated scientific (model-based and mechanistic) reasoning in engineering teams using qualitative, quantitative, mixed/multimethods and artificial intelligence-based approaches. I am also involved with sustainable thermo-fluids and biophysics systems modeling and simulations. I have conducted independent studies in using AI/ML, XAI, FedRL and DL approaches to solve problems in biomedical and cybersecurity spaces. Lastly, I am a man of Faith in Christ Jesus, husband of one, father of three, and spiritual leader to many. Also, I love theology!
+            My PhD work investigated scientific (model-based and mechanistic) reasoning in engineering teams using qualitative, quantitative, mixed/multimethods and artificial intelligence-based approaches. I am also involved with sustainable thermo-fluids and biophysics systems modeling and simulations. I have conducted independent studies in using AI/ML, XAI, FedRL and DL approaches to solve problems in biomedical and cybersecurity spaces. Lastly, I am a man of Faith in Christ Jesus יֵשׁוּעַ הַמָּשִׁיחַ, husband of one, father of three, and spiritual leader to many. Also, I love theology!
           </p>
         </div>
 
